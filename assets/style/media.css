@@ -1,0 +1,14 @@
+@media screen and (max-width: 1200px){
+ .progress{
+  display: none !important;
+ }
+ 
+  
+}
+@media screen and (max-width: 992px){
+ .design_medium_display_none{
+   display: none;
+ }
+ 
+  
+}

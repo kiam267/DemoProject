@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+font-family: Nunito Sans;
+border: none !important;
+outline: none !important;
+box-sizing: border-box;
+}
+
+
+input{
+  caret-color:  #49A382 ;
+
+}
+li,a{
+  color: #fff !important;
+}
+.active{
+color: rgba(154, 198, 183, 1) !important;
+}
+li a:hover{
+ color: rgba(154, 198, 183, 1) !important;
+
+}
+i{
+  color: rgba(154, 198, 183, 1)  !important;
+}
+
+.custon__link{
+  position: relative;
+}
+ .custon__link--2{
+
+position: absolute;
+  bottom: 0px;
+  display: block;
+  margin: auto;
+  left:40%;
+  width:60px;
+  height: 3px;
+  background: #49a382;
+ };
+
+
+.carousel-windth{
+  width: 50%;
+}
+
+
+@media screen and  (max-width: 1275px){
+  .menu_button{
+    display: block !important;
+  }
+  .d_none_md{
+    display: none !important;
+  }
+  .bg_color_md{
+  background: #1E1E1E !important;
+
+  }
+  #navbarSupportedContent{
+    position: fixed;
+     background: #1E1E1E;
+     margin: -99999999px auto 0px auto;
+     transition: 0.5s;
+     width: 80%;
+     padding: 20px;
+     z-index: 9999;
+  }
+  #navbarSupportedContent.add_nav{
+    margin-top: 400px !important;
+  }
+  .direction_change{
+    flex-direction: column;
+  }
+  .direction_change input{
+    margin: 15px;
+    width: 100% !important;
+  }
+ 
+  
+}
+@media screen and (max-width: 960px){
+ .progress{
+  display: none !important;
+ }
+ 
+  
+}
+
+@media screen and  (max-width: 768px){
+ .feature_width_chnage{
+  width: 50% !important;
+  
+
+ }
+.carousel-windth{
+  width: 100%;
+}
+
+
+ .hottess_windth_chnage{
+  width: 100% !important;
+ }
+ .hottess_deretion_chnage{
+  flex-direction: column;
+ }
+ .hottess_none_chnage{
+  display: none !important;
+ }
+
+ /* Header Font Size */
+  .font_size_control{
+  font-size: 1.3rem !important;
+ }
+ 
+}
